@@ -24,7 +24,7 @@ public class DemoController {
 		return "Welcome";
 	}
 	@PostMapping("/about")
-	public String getabout()
+	public String about()
 	{
 		return "https://www.google.co.in/";
 	}
